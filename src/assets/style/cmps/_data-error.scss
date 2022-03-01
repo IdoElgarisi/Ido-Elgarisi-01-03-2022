@@ -1,0 +1,46 @@
+.error-card-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid $bsPrimary;
+    padding: 5px;
+    border-radius: 9px;
+    .error-card-top {
+        width: 100%;
+        height: 70px;
+        .weather-icon {
+            height: 70px;
+            width: 70px;
+            margin-inline-end: 10px;
+            .mini-icon {
+                border: 1px solid $bsPrimary;
+                height: 70px;
+                width: 70px;
+                border-radius: 9px;
+            }
+        }
+    }
+    .error-card-bottom {
+        width: 95%;
+        height: 70%;
+        max-height: 50vh;
+        .error-text-container {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .weather-mini-box-left {
+        width: 30%;
+        max-width: 140px;
+        height: 100%;
+        .mini-city-icon {
+            border: 1px solid $bsPrimary;
+            height: 70px;
+            width: 70px;
+            border-radius: 9px;
+            img {
+                height: 60px;
+                width: 60px;
+            }
+        }
+    }
+}
