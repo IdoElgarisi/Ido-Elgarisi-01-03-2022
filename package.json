@@ -11,7 +11,8 @@
     "axios": "^0.26.0",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
-    "sass": "^1.49.8",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuetify": "^2.6.3",
@@ -23,7 +24,7 @@
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-plugin-vuex": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^8.5.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
