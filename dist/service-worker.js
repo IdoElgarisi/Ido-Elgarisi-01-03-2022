@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ido-Elgarisi-28-02-2022/precache-manifest.d9350cb71fb7d59f1208f8d1b33c9abc.js"
+  "/Ido-Elgarisi-29-02-2022/precache-manifest.ca560a7634f9fdfaaf0dcb74fa52e00c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "weather-app"});
