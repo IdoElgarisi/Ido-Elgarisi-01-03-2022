@@ -21,6 +21,9 @@
         </p>
       </div>
     </div>
+    <div class="weather-mini-box-center flex align-center justify-center">
+      <my-location />
+    </div>
     <div class="weather-mini-box-right flex align-center">
       <div @click="onRemoveFavorite" v-if="this.isFavoriteCity">
         <p>Remove From Favorites</p>
@@ -34,7 +37,9 @@
 
 <script>
 import { utils } from "../services/utils.service";
+import myLocation from "./my-location.vue";
 export default {
+  components: { myLocation },
   props: ["city", "dailyData"],
   data() {
     return {

@@ -99,7 +99,7 @@ export default new Vuex.Store({
     },
     onToggleDarkMode(context, { darkMode }) {
       context.commit({ type: 'toggleDarkMode', darkMode });
-    }
+    },
   },
   modules: {
   }

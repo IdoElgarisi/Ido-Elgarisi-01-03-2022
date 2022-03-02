@@ -2,7 +2,7 @@
     width: 100%;
     height: 80%;
     background-color: #ffae42;
-    transition: all .5s;
+    transition: all 0.5s;
     li {
         background-color: $Clr5;
         color: black;
@@ -52,7 +52,7 @@
         }
     }
     .weather-mini-box-left {
-        width: 30%;
+        width: 33.3%;
         max-width: 140px;
         height: 100%;
         .mini-city-icon {
@@ -67,8 +67,25 @@
             }
         }
     }
+    .weather-mini-box-center {
+        width: 33.3%;
+        height: 100%;
+        .my-location {
+            button {
+                border: none;
+                background-color: $bsWarning;
+                color: white;
+                border-radius: 9px;
+                height: 30px;
+                cursor: pointer;
+                 &:hover {
+                    background-color: lighten($color: $bsWarning, $amount: 15%);
+                }
+            }
+        }
+    }
     .weather-mini-box-right {
-        width: 50%;
+        width: 33.3%;
         height: 100%;
         // border: 1px solid;
         div {
