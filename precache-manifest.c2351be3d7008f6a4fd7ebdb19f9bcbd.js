@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1d6768112c54537e4ab",
+    "revision": "5ca2f4fbeb9ab5603619",
     "url": "/Ido-Elgarisi-29-02-2022/css/app.19a6df64.css"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ido-Elgarisi-29-02-2022/img/circle-half-stroke-solid.6803cf13.svg"
   },
   {
-    "revision": "cc20a23d803938a4804e69e96e474bdd",
+    "revision": "8c04dd5ea284934c407887d7f9cbe5e2",
     "url": "/Ido-Elgarisi-29-02-2022/index.html"
   },
   {
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ido-Elgarisi-29-02-2022/js/about.c9c384f6.js"
   },
   {
-    "revision": "b1d6768112c54537e4ab",
-    "url": "/Ido-Elgarisi-29-02-2022/js/app.f86f5762.js"
+    "revision": "5ca2f4fbeb9ab5603619",
+    "url": "/Ido-Elgarisi-29-02-2022/js/app.19ac6f70.js"
   },
   {
     "revision": "ad34db538f20dd3cc5ef",
