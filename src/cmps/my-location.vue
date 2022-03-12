@@ -23,8 +23,8 @@ export default {
       const city = { Key: cityData.Key, LocalizedName: cityData.LocalizedName };
       this.$store.dispatch({ type: "loadCurrCity", city });
     },
-    error() {
-      console.log("error");
+    error(err) {
+      console.log("error", err);
     },
   },
   computed: {},
